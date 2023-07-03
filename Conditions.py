@@ -10,7 +10,7 @@ for i in suraj:
     print(i * 2)
 print("****************")
 
-suma = 1
+suma = 0
 for k in range(1, 6):
     suma = suma + k
 print(suma)
