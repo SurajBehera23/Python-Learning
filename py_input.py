@@ -1,3 +1,3 @@
-name = eval(input("Input text"))
+name = eval(input("Input text ="))
 print(name)
 print(type(name))
