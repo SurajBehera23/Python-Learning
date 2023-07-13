@@ -3,6 +3,9 @@ import calendar
 print(calendar.month(2023, 7))
 
 
-def myname():
-    print(myname("Suraj"))
+def myname(name):
+    print(name)
+
+
+myname("Suraj")
 myname()
