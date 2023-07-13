@@ -1,11 +1,9 @@
-import calendar
-
-print(calendar.month(2023, 7))
-
-
-def myname(name):
-    print(name)
+class Test1:
+    def add_numbers(a, b):
+        _sum = a + b
+        return _sum
 
 
-myname("Suraj")
-myname()
+# Calling the function
+result = Test.add_numbers(10, 10)
+print(result)  # Output: 20
