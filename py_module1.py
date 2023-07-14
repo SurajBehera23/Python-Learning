@@ -1,9 +1,11 @@
-class Test1:
-    def add_numbers(a, b):
-        _sum = a + b
-        return _sum
+def my_sum(a, b):
+    add = a + b
+    return add
 
 
-# Calling the function
-result = Test.add_numbers(10, 10)
-print(result)  # Output: 20
+result = my_sum(10, 20)
+print(result)
+
+
+def your_name():
+    print("Suraj Behera")

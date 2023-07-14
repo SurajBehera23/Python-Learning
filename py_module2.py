@@ -1,3 +1,4 @@
-import py_module1
-suraj = add_numbers(10, 12)
-print(suraj)
+from py_module1 import *
+
+my_sum(10, 30)
+your_name()
