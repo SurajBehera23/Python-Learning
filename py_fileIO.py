@@ -1,4 +1,3 @@
-
 #
 # try:
 #     mytxt = open("C:\\Users\\NBDPLN0021\\Desktop\\python\\vky.txt", "r")
@@ -10,7 +9,7 @@
 #     mytxt.close()
 #     print("file closed")
 #
-#file copy
+# file copy
 # try:
 #     with open("C:\\Users\\NBDPLN0021\\Desktop\\python\\vky.txt") as a:
 #         with open("C:\\Users\\NBDPLN0021\\Desktop\\python\\vky2.txt", "w") as b:
@@ -23,10 +22,11 @@
 #     a.close()
 #     print("file closed")
 
-#file delete
+# file delete
 import os
+
 if os.path.exists("C:\\Users\\NBDPLN0021\\Desktop\\python\\vkyh.txt"):
     os.remove("C:\\Users\\NBDPLN0021\\Desktop\\python\\vky.txt")
     print("File deleted")
 else:
-    print("File not avaialable") 
+    print("File not avaialable")
