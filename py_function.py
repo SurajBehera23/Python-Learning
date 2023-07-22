@@ -40,7 +40,9 @@ def word4(First_name, Last_name):  # keyword Argument
 
 word4(First_name=Suraj, Last_name=Behera)
 
-def word5(default_name="Guest"):# default Argument
-    print("My name is",default_name)
-word5()
 
+def word5(default_name="Guest"):  # default Argument
+    print("My name is", default_name)
+
+
+word5()
