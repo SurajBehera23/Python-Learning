@@ -22,6 +22,7 @@ class game:
     def game1(self):
         print("Battle")
 
+
 # Class 'game2' inheriting from the base class 'game'
 class game2(game):
     # Overwritten method 'game1' in the derived class 'game2'
@@ -29,9 +30,9 @@ class game2(game):
         super().game1()  # Calling the 'game1' method of the base class
         print("Tanks")
 
+
 # Creating an instance of the 'game2' class
 obj = game2()
 
 # Calling the 'game1' method of the 'game2' class
 obj.game1()
-

@@ -6,11 +6,12 @@ class A:
 
     # print(total)  # Commented out to avoid unnecessary print statements
 
-    # Define the 'mult' method
-    def mult(self):
+    # Define the 'multiply' method
+    def multiply(self):
         midage = int(input("enter 1st num - "))  # Taking input for 'midage'
         topage = int(input("enter 2nd num - "))  # Taking input for 'topage'
         print(midage * topage)  # Print the multiplication result
+
 
 # Create an instance 'obj' of class A
 obj = A()
@@ -18,7 +19,7 @@ obj = A()
 print(A.total)
 
 # Call the 'mult' method of class A using the instance 'obj'
-obj.mult()
+obj.multiply()
 
 
 # Define class B
@@ -37,6 +38,7 @@ class B:
     # Define the constructor '__init__' method
     def __init__(self):
         print("My name is suraj kumar behera")  # Print a message when the instance of class B is created
+
 
 # Create an instance 'obj' of class B
 obj = B()
